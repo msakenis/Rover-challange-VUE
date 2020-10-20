@@ -216,7 +216,7 @@
 				if (!(coo != null && coo.length != 0 && coo >= 0 && coo % 1 == 0)) {
 					this.active = true
 					this.errorMessage =
-						'Please enter valid initial coordinates or size of square. Only positive and decimal numbers accepted.'
+						'Please enter valid initial coordinates or size of square. Only positive and whole numbers accepted.'
 					this.errorType = 'is-danger'
 					return false
 				} else {
